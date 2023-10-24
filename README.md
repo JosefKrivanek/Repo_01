@@ -1,2 +1,2 @@
 # Repo_01
-Fubguje to??
+Funguje to??
