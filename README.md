@@ -1,11 +1,14 @@
-# Textová hra
+# Stalker
+Is a text-based game with horror and halloween themes with diffrent endings.
 
-Jedná se o jednoduchou textovou hru s halloweenskou tématikou. S vícero koncemi.
+## How to start / play?
+The game is supposed to be played in the terminal in VS. \
+The only controls needed are num keys 0 to 2 and Enter. 
 
-## Jak hrát?
-Hra se hraje v terminálu a jediné ovládání jsou klávesy 0 - 2 a Enter
+## Extras
+There is no need for any extra installation. \
+It runs perfectly as it is.
 
-##
 
 
 
