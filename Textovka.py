@@ -5,7 +5,7 @@ choice = 0
 
 input("Spoopy game \nPress Enter to continue\n ")
 
-input("\033[91m. . .\nYou’re walking down the street as you notice someone else’s footsteps behind you.\n \033[0m")
+input(". . .\nYou’re walking down the street as you notice someone else’s footsteps behind you.\n ")
 input("You turn around, a figure in a black hoodie passes by you. You recognize the hoodie.\nIt’s the same person you have been strangely noticing near you for the past few weeks.\n ")
 input("You don’t want to accuse anyone of anything but it is rather creepy.\n ")
 input("You get home and try to open the door only to find out it’s unlocked. Did you forget to lock it?\n ")
