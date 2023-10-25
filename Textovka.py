@@ -3,7 +3,7 @@
 choice = 0
 
 
-input("Spoopy game \nPress Enter to continue\n ")
+input(" \nPress Enter to continue\n ")
 
 input(". . .\nYou’re walking down the street as you notice someone else’s footsteps behind you.\n ")
 input("You turn around, a figure in a black hoodie passes by you. You recognize the hoodie.\nIt’s the same person you have been strangely noticing near you for the past few weeks.\n ")
