@@ -1,4 +1,4 @@
-import time
+
 
 choice = 0
 
@@ -11,19 +11,9 @@ input("You don’t want to accuse anyone of anything but it is rather creepy.\n 
 input("You get home and try to open the door only to find out it’s unlocked. Did you forget to lock it?\n ")
 input("You step in and turn on the light.")
 print(".")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
 input("Nothing unusual or out of order. But you swear you locked the door when you left.\n ")
 input("There’s an unsettling feeling, but you’re not sure if you should stay.")
 print(".")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
 
 choice=int(input("0 - I should call someone\n1 - Stay \n "))
 if choice == 0:
@@ -31,7 +21,6 @@ if choice == 0:
     if choice == 0:
         input("You call your friend and ask if you can come over, they agree and you get on your way.\nYou walk through the dark as you notice familiar footsteps once again.\n  ")
         input("As you reach your friends building, you finally find to courage to turn around, only to find an empty street.\n ")
-        time.sleep(1)
         input("Weird. Are you going insane?\n ")
         input("You spend the night at your friends house and tell them about your weird encounters with this mysterious figure.\n ")
         choice =int(input("Your friend seems worried, maybe you should go to the police station?\n0 - Yes\n1 - No\n "))
@@ -73,12 +62,12 @@ if choice == 0:
         input("You struggle to unlock the door, breaking the key in half. \nYou succeed, leaving half of the key in the keyhole and slam the door behind you.\n ")
         input(" You can’t lock the door anymore but there is 10 apartments on this floor. Is he going to try to open every single one of them?\n ")
         input("As long as he doesn’t know where you are, you should be fine, right? \nJust in case though, you crouch behind the kitchen cabinet and pull out your phone.\n ")
-        choice = int(input("0 - Call your sister \n1 - call your friend \n2 - call the police"))
+        choice = int(input("0 - Call your sister \n1 - call your friend \n2 - call the police\n "))
         if choice == 0:
             input("You call your sister right away.\n ")
             input(" She picks up immediately and you panic, telling her you’re hiding away behind your friends kitchen cabinet and need help.\n ")
             input("Your sister sounds rather calm, she says she’ll be right there. \nShe asks where EXACTLY you are.\n ")
-            choice = int(input("\'I’m in a room with nuber:\n0 - 503\n1 - 504\n2 - 505"))
+            choice = int(input("\'I’m in a room with nuber:\n0 - 503\n1 - 504\n2 - 505\n "))
             if choice == 0:
                 input("Room 503.\n ")
                 input("Your sister hangs up. You’re confused but hope she’ll come any minute. \nYou wait for a few minutes in silence.\n ")
@@ -133,12 +122,6 @@ elif choice == 1:
     input("Whatever, it’s too late to go somewhere else.\n ")
     input("You just have too many things on your mind and forgot to lock the door.\n ")
     input("You get ready for bed and lay down. You’re about to fall asleep when you hear the door click.\n ")
-    print(".")
-    time.sleep(1)
-    print(".")
-    time.sleep(1)
-    print(".")
-    time.sleep(1)
     input("Shivers go down your spine, you get up and slowly open your bedroom door to investigate.\n ")
     input("You don’t see anything weird. You turn on the light and walk into the kitchen.\n ")
     input("You look around and see nothing. Are you hallucinating right now? Is this just a dream?\n ")
